@@ -1,0 +1,17 @@
+{
+  "name": "bus-scraper",
+  "version": "1.0.0",
+  "description": "Using Chesterfield County's bus google doc, notify me when my kids' bus is leaving school.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Josh Lavely <Josh@lavely.io>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "cheerio": "^1.0.0",
+    "node-schedule": "^2.1.1",
+    "twilio": "^5.2.3"
+  }
+}
